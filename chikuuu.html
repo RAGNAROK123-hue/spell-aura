@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spell Aura - Ayushi's Mystical Spells</title>
+    <link rel="stylesheet" href="style.new.css">
+</head>
+<body onload="showPopup()">
+    <script src="first.js"></script>
+    <header>
+        
+        <!-- <img src="https://imback.pi7.org/downloadimage/resized/CusRM_766521737305217083.jpeg" alt="none";> -->
+        
+        <h1 id="website-name"><i><b>🪄SPELL AURA🪄</i></b></h1> <br>
+        <h1 id="website-name"><i> 🪄AYUSHI'S MYSTICAL SPELL'S🪄 </i></h1>
+        <br><br>
+         <img id="website-name" src="data:image/jpeg;base64,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"alt="none";>
+         <img id="website-name"src="data:image/jpeg;base64,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" alt="none"> 
+         <img id="website-name"src="data:image/jpeg;base64,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" alt="none">
+         
+       
+         <br>
+         <div  class="nav-container">
+            <input type="text" id="search-bar" placeholder="Search spells..." onkeyup="searchSpells()">
+            <PRE>  </PRE>
+            <p><H4 id="website-name">BOOK YOUR SPELL NOW AND GETS YOUR LOVE ,LUCK ,PROSPERITY AND EVERYTHING YOU WANT❤️</H4></p>
+                   
+                
+            <!-- <ul> <li><a href="#"><pre>  <u>HOME</u>                            </pre></a>
+            <li><a href="#"><pre><u>ABOUT</u>                                  </pre></a>
+            <li><a href="#"><pre><u>SPELLS</u>                                 </pre></a>
+                <li><a href="#"><pre><u>CONTACT</u>  </pre></a>
+            </ul> -->
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+    
+    <hr>
+    <nav id="nav-menu" class="hidden">
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#my-spells">My Spells</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#help">Help</a></li>
+        </ul>
+    </nav>
+    
+    <main id="spell-list">
+        <section >
+            <div class="spell sweetening-spell" data-name="sweetening spell">
+<br>
+           
+           <img src="https://media.istockphoto.com/id/1141009146/photo/cheerful-polka-dot-cupcakes.jpg?s=612x612&w=0&k=20&c=hVnMNFiw93Dg8fBkR7GMBFgzdJyWyBymhTECvixaYw4=" alt="">
+            <div class="spell-info">
+            <h2>Sweetening Spell 🍰<br>Price - 1100/- </h2>
+            </div> 
+     <div>
+            
+            <p class="spell-desc">Improve any connection with a touch of magical sweetness.</p>
+            
+            <p class="more-info" onclick="toggleDescription('sweetening')">What is Sweetening Spell? ↓</p>
+            <div id="sweetening-desc" class="hidden ">
+                <p>A sweetening spell is a type of love spell designed to soften someone's heart, improve a relationship, or make a person more open, agreeable, and loving.</p>
+                <p>Additional information to be added as needed.</p>
+            </div>
+        </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            
+            <br>
+            <br> 
+        </section>
+        
+        <hr>
+        <section class="spell love-spell" data-name="love spell"><br>
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb6QNGAcTnxHPb9ltjMZZU4Rig8pqatLtWOA&s" alt="Love-Spell" onclick="showSpellInfo('love')"><br>
+            <div class="spell-info">
+            <h2>Love Spell 💗<br>Price 1100/-</h2>
+            </div>
+            <p class="spell-desc">Attract, strengthen, or heal romantic connections.</p>
+           
+            <p class="more-info" onclick="toggleDescription('love')">What is Love Spell? ↓</p>
+            <div id="love-desc" class="hidden">
+                <p>Love spells are a way of using simple rituals and focused intention to create the love and connection you desire. They work by tapping into the natural energies around us, aligning your heart's wishes with the universe's flow.</p>
+                <p>Whether you're looking to spark a new romance, strengthen an existing relationship, or bring back lost feelings, love spells help guide that energy towards your goal. It's not about forcing someone to love you but about creating the right situations and conditions for love to grow, bloom, and cherish your life.</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+        <br>
+        </section>
+        
+        <hr>
+        <section class="spell love-binding-spell"  data-name="love binding spell"><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchNe6OReIgI0pJV7luGynegpA-JaaD_AZcQ&s" alt="Love Binding Spell" onclick="showSpellInfo('binding')"><br>
+            <div class="spell-info">  
+                <h2>Love Binding Spell 👩‍❤️‍👨🫂<br>Price - 1100/-</h2>
+                </div>
+            <p class="spell-desc">Strengthen the connections between two people.</p>
+            
+             <p class="more-info" onclick="toggleDescription('binding')">What is Love Binding Spell? ↓</p>
+            <div id="binding-desc" class="hidden">
+               <p>Binding spells are the most powerful love spells, but you should only choose this if you and your partner are sure and want to be together forever and marry each other!</p>
+                <p>Strengthen the connections between two people, sealing their bond with loyalty, trust, and deep affection.</p>
+            
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+       
+        <hr>
+        <section class="spell money-spell" data-name="money spell"  ><br>
+            <img src="https://imgs.search.brave.com/BnM4--zd-SoGCQ_L4Lzy_pPtRW0sLYZsVhKJIsy_luA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/MzA4NTU5L3Bob3Rv/L21vbmV5LXBpbGUt/MTAwLWRvbGxhci1i/aWxscy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9Y3AzVFhU/V1YtN04tMnlab3Qz/SXNYZjF2MW1VV01s/RjFYelNlTkdaVVZO/UT0" alt="Money Spell" onclick="showSpellInfo('money')"><br>
+            <div class="spell-info">  
+             <h2>Money Spell 💸<br>Price-1100/-</h2>
+             </div>
+            <p class="spell-desc">Solve money related problems & attract money.</p>
+            
+              <p class="more-info" onclick="toggleDescription('money')">What is Money Spell? ↓</p>
+            <div id="money-desc" class="hidden">
+                <p>A Money spell is designed to attract money or solve money related problems.</p>
+                <p>Whether you're looking or facing any financial conditions .This solves and your financial condition.</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+        <br>
+        </section>
+        
+        <hr>
+        <section class="spell love-attraction-spell"data-name="love attraction spell" >
+            <br>
+            <img src="https://www.shutterstock.com/image-photo/young-couple-jumping-drawing-connected-260nw-90374245.jpg" alt="Love Attraction Spell" onclick="showSpellInfo('attraction')">
+          <br>
+          <div class="spell-info">  
+              <h2>Love Attraction Spell 🫶🏻<br>Price-1100/-</h2>
+              </div>
+            <p class="spell-desc">Draw love and romantic energy towards you.</p>
+
+             <p class="more-info" onclick="toggleDescription('attraction')">What is Love Attraction Spell? ↓</p>
+             
+            <div id="attraction-desc" class="hidden">
+                <p>A love attraction spell is designed to draw love and romantic energy towards you, whether you're looking to attract a specific person or simply invite love into your life.</p>
+            </div>        
+                <B><u>BOOK NOW 🎫</u></B>
+                <br>
+            <br>
+        </section>
+        <hr>
+        
+        <section class="spell come-back-to-me-spell" data-name="come back to me spell">
+            <br>
+            <img src="https://blueroseone.com/store/public/uploads/all/UNOtPjPPk8uvyHqm9dl7ODDoBf3L6nCdLKRneR1W.jpg" alt="Come Back to Me Spell">
+            <div class="spell-info">
+                <h2>Come Back To Me Spell🫴🏻 <br>Price-1100/-</h2>  
+
+            </div>
+            <p class="spell-desc">Inviting a lost love or a friend back into your life.</p>
+            <p class="more-info" onclick="toggleDescription('comeback')">What is Come Back to Me Spell? ↓</p>
+            <div id="comeback-desc" class="hidden rounded-info">
+                <p>A "Come Back to Me" spell is a type of spell intended to rekindle a relationship with someone who has grown distant or has left your life. It focuses on inviting a lost love or a friend back into your life by creating an emotional and spiritual connection that draws them back to you. 💥❤️</p>
+                <p>This spell often involves elements like candles, personal objects, and affirmations that align your intentions with the universe’s natural energies, encouraging reconciliation and the re-establishment of bonds.</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+        <br>
+        </section>
+        <hr>
+        <section class="spell commitment-spell" data-name="commitment spell">
+            <br>
+            <img src="https://i.pinimg.com/736x/9f/98/10/9f98106ecf1ae2e68c33b951ae55fdc8.jpg" alt="Commitment Spell">
+            <div class="spell-info">
+                <h2>Commitment Spell🤝 <br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">Strengthen and deepen the emotional bonds and loyalty in a relationship. 💥❤️</p>
+            <p class="more-info" onclick="toggleDescription('commitment')">What is Commitment Spell? ↓</p>
+            <div id="commitment-desc" class="hidden rounded-info">
+                <p>A "Commitment Spell" is designed to deepen the bonds in a romantic or platonic relationship. The aim is to foster loyalty, trust, and long-term dedication between individuals. It’s about strengthening the connection and encouraging both parties to remain devoted and faithful to each other🌟❤️</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+
+        <hr>
+
+        <section class="spell marriage-spell" data-name="marriage spell">
+            <br>
+            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/83513817/3406159289.jpg" alt="Marriage Spell">
+            <div class="spell-info">
+                <h2>Marriage Spell 👰🏻💍🤵🏻<br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">A "Marriage Spell" fosters love, commitment, and harmony in a marital or prospective relationship. 💥❤️</p>
+            <p class="more-info" onclick="toggleDescription('marriage')">What is Marriage Spell? ↓</p>
+            <div id="marriage-desc" class="hidden rounded-info">
+                <p>A "Marriage Spell" is intended to support and enhance a marital relationship or attract a long-term partner. It focuses on fostering love, commitment, and harmony within a marriage, often using candles, symbols of union, and affirmations.</p>
+                <p>By performing a "Marriage Spell," individuals seek to invite positivity and stability into their union, creating a deeper emotional and spiritual connection, encouraging mutual understanding, trust, and devotion. 🌟❤️</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+        <hr>
+        <section class="spell health-spell" data-name="health spell">
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5g6BNNiDQyDKMyMR_DgfBimva5qeUDU68dA&s" alt="Health Spell">
+            <div class="spell-info">
+                <h2>Health Spell 🩺<br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">Encourages holistic health by combining natural elements and focused intentions to support the body's and mind’s healing processes🌿</p>
+            <p class="more-info" onclick="toggleDescription('health')">What is Health Spell? ↓</p>
+            <div id="health-desc" class="hidden rounded-info">
+                <p>A "Health Spell" is designed to promote overall well-being, healing, and vitality. This type of spell often focuses on enhancing physical, emotional, and spiritual health by aligning the individual's energy with positive and healing forces. 🌿✨</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+        <hr>
+
+        <section class="spell healing-spell" data-name="healing spell">
+            <br>
+            <img src="https://m.media-amazon.com/images/I/81WRyQpdxlL._UF1000,1000_QL80_.jpg" alt="Healing Spell">
+            <div class="spell-info">
+                <h2>Healing Spell 🍃✧💚<br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">Creating a nurturing environment that supports growth and recovery, allowing for a renewed state of health and vitality. 🌿💥</p>
+            <p class="more-info" onclick="toggleDescription('healing')">What is Healing Spell? ↓</p>
+            <div id="healing-desc" class="hidden rounded-info">
+                <p>A "Healing Spell" is designed to promote recovery, balance, and overall wellness for an individual. It aims to address physical, emotional, and spiritual wounds by channeling positive energy and intentions towards healing. These spells often involve elements like herbs, candles, and crystals known for their restorative properties, along with affirmations to reinforce the healing process. 🌿✨</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+        <hr>
+        <section class="spell cord-cutting-spell" data-name="cord cutting spell">
+            <br>
+            <img src="https://symbosity.com/wp-content/uploads/Cord-cutting-technique-585x466.jpg" alt="Cord Cutting Spell">
+            <div class="spell-info">
+                <h2>Cord Cutting Spell 😌✄┈┈┈┈ <br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">Severs negative ties and promotes personal growth. 💥✂️</p>
+            <p class="more-info" onclick="toggleDescription('cordcutting')">What is Cord Cutting Spell? ↓</p>
+            <div id="cordcutting-desc" class="hidden rounded-info">
+                <p>A "Cord Cutting Spell" severs negative, unhealthy ties between individuals. These spells help release emotional baggage and promote personal growth. They often involve visualizing cords being cut and setting healing intentions. 🌟✂️</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+        <hr>
+        <section class="spell protection-spell" data-name="protection spell">
+            <br>
+            <img src="https://www.protectionreporter.co.uk/images/660x350/2976-shutterstock_193903625.jpg" alt="Protection Spell">
+            <div class="spell-info">
+                <h2>Protection Spell⚔️🛡️<br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">Create a barrier of safety and security around an individual, place, or object.</p>
+            <p class="more-info" onclick="toggleDescription('protection')">What is Protection Spell? ↓</p>
+            <div id="protection-desc" class="hidden rounded-info">
+                <p>A "Protection Spell" aims to ensure overall well-being by creating a safe space for growth and peace. 🌟🔒 These spells are often used to shield against negative energy, harm, or unwanted influences by establishing a protective aura or force field. Common elements in protection spells include candles, herbs, crystals, and symbols, each chosen for their protective properties.</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+        <hr>
+        <section class="spell freezing-spell" data-name="freezing spell">
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBaOYefPrFBA3goZACrWY018izQhkBH4x4Iw&s" alt="Freezing Spell">
+            <div class="spell-info">
+                <h2>Freezing Spell❄️⏸️<br>Price-1100/-</h2> 
+            </div>
+            <p class="spell-desc">Create a temporary pause, allowing time to address and resolve the issue constructively.</p>
+            <p class="more-info" onclick="toggleDescription('freezing')">What is Freezing Spell? ↓</p>
+            <div id="freezing-desc" class="hidden rounded-info">
+                <p>A "Freezing Spell" is designed to pause or halt undesired actions, behaviors, or situations. The idea behind it is to symbolically "freeze" the problem, rendering it inactive or ineffective. These spells are often used to protect oneself from negativity, gossip, or harmful intentions from others.</p>
+            </div>
+            <B><u>BOOK NOW 🎫</u></B>
+            <br>
+            <br>
+        </section>
+
+    </main>
+    
+    <footer>
+    
+            <section class="info">
+            <h3>About Spell🪄</h3>
+            <b>Let's get your desired love, relationship, luck, prosperity, protection, and everything you need and want with the help of ancient rituals, spells, and words.</b>
+            <b>Spells are not like hypnotism or black magic. They create situations in your life that solve problems & makes your life better.</b>
+            <br><hr>
+            <h3>SPELL CRAFT🪄</h3>
+            <b>Let me introduce you to spellcraft !!!!</b>
+            <b>Spellcraft is like a magical recipe where intentions, beliefs, and actions combine to produce extraordinary results and desired outcomes.</b>
+            <br><hr>
+            <h3>Speller Info ℹ️</h3>
+            <b>My name is Ayushi Thakur. I'm a certified Akashic reader, astrologer, and psychic. Currently, I am doing studies as well as spells. I have quite experience in this. Many people tried these spells and got their desired results and live happily. </b>
+            <br>
+            <br>
+            <b><u>Book Your Spell Now🎫</u></b><br>
+            <b><p>For more information, you can check the review of our customers by clicking on the review button.</p></b><br>
+            <button onclick="toggleReviews()" class="review-button">Check Reviews</button>
+        </div>
+        
+        <div id="customer-reviews" class="hidden reviews">
+            <div class="review"><strong>SANDEEP CHOUHAN:</strong> Absolutely loved the results! You have to keep patience.And that patience is full of worth.🌟</div>
+            <div class="review"><strong>PRIYANKSHI MEENA:</strong> Highly recommend, amazing experience! I tried money spell and it solves all my  financial problems.😊</div>
+            <div class="review"><strong>HAPPPY_soul:</strong> It worked wonders for me. Thank you so much. The service is mind blowing and they clear all your doubts. 🙌</div>
+            <div class="review"><strong>ADITI RATHORE:</strong> Love Binding spell, will definitely use again! Me & My partener love a lot each other and wants to marry but situations and family dont agree at all.But this helps a lot and now we are together wiht our families.💫</div>
+            <div class="review"><strong>AKSHAT CHOUHAN:</strong> Very effective and well worth the investment!The results will shock you .👍</div>
+        </div>
+        </section>
+
+        <br><hr>
+        <section class="contact">
+            <h3>Customer Service 📞</h3>
+            <b>If you have any problems or doubts, feel free to ask and contact us on <u>9329619096</u>.</b>
+            <b>OR Email us on <u>pushpakmalviya09@gmail.com</u></b>
+        </section>
+
+       
+    </footer>
+    
+  
+</body>
+</html>
